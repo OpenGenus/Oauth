@@ -1,0 +1,65 @@
+/* Styles for App component */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+/* Styles for LoginButton component */
+.LoginButton {
+  background-color: #5CAF50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+/* Styles for LogoutButton component */
+.LogoutButton {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* Styles for UserProfile component */
+.UserProfile {
+  margin-top: 2rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  max-width: 400px;
+}
+
+/* Styles for UserProfile component's header */
+.UserProfile h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+/* Styles for UserProfile component's label */
+.UserProfile label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Styles for UserProfile component's input */
+.UserProfile input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Styles for UserProfile component's button */
+.UserProfile button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
